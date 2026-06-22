@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Université de technologie - Admissions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="navbar">
+     <div class="logo"> <img src="image/Capturelogo2.PNG" width="60" alt="Logo université" class="logo-img">
+    </div>
+        <nav>
+            <ul>  
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="programs.html">Filieres</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+ </header>
+    <main>
+
+        <section>
+            
+            <h1>Admissions</h1>
+            <p>Rejoignez notre communauté. Remplissez le formulaire de préinscription ci-dessous.</p>
+
+
+      <form id="preinscriptionForm">
+
+          <input type="text" id="nom" placeholder="Nom" required>
+         <input type="text" id="prenom" placeholder="Prénom" required>
+          <input type="email" id="email" placeholder="Email" required>
+
+         <input type="number" id="age" placeholder="Âge" required>
+
+  
+                  <select id="Nationnalité" required>
+                  <option value="">Nationnalité</option>
+                  <option value="Nigerienne">Nigerienne</option>
+                  <option value="Toolais">Malienne</option>
+                  <option value="Toolais">Burkinabais</option>
+          </select>
+
+
+               <select id="sexe" required>
+               <option value="">Sexe</option>
+               <option value="Homme">Homme</option>
+               <option value="Femme">Femme</option>
+
+           </select>
+
+            
+              <select id="diplome" required>
+              <option value="">Type de diplôme</option>
+              <option value="BAC C">BAC C</option>
+              <option value="BAC D">BAC D</option>
+              <option value="Professionnel">BAC Pro</option>
+              <option value="Technique">BAC Technique</option>
+            </select>
+
+            <input type="text" id="ville" placeholder="Ville" required>
+
+             <label for="filiere">Filière d'intérêt :</label>
+             <select id="filiere" name="filiere" required>
+             <option value="">Sélectionnez</option>
+             <option value="ia">Intelligence Artificielle</option>
+             <option value="cyber">Cybersécurité</option>
+             <option value="web">Développement Web</option>
+             <option value="data">Data Science</option>
+          </select>
+          
+
+                <button type="submit">Envoyer</button>
+
+    </form>
+        </section>
+    </main>
+    <br/>
+    <footer>
+        <p>&copy; 2026 Université de technologie. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
